@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background-color: #f7f9f8;
+}
+.total_header{
+	width: 80%;
+	margin: 0 auto;
+	color: gray;
+}
+.header_icon {
+	border-bottom: 2px solid gray;
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+
+}
+.logo {
+	width: 40%;
+	float: left;
+
+
+}
+.logo img{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+
+}
+.logo h3{
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 20px;
+	transform: translateY(-10px);
+}
+.icon {
+
+}
+.icon img {
+
+}
+.header_manu {
+	width: 100%;
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.header_manu ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.header_manu ul li:hover {
+	color: #00C853;
+}
+.slider {
+	position: relative;
+	width: 100%;
+	background-image: url(background.png);
+	height: 550px;
+
+}
+.slider img{
+	position: absolute;
+	top: 27%;
+	left: 22%;
+
+}
+.content {
+	padding-top: 200px;
+	padding-bottom: 70px;
+
+
+
+}
+.one {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: gray;
+}
+.one h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+}
+.two {
+	margin: 0 auto;
+	width: 130px;
+	padding: 10px;
+	background-color: #00C853;
+	font-size: 13px;
+	line-height: 20px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+..two p {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+
+}
+.ready {
+	width: 100%;
+	padding-top: 30px;
+	background-color: gray;
+	color: white;
+	height: 70px;
+
+
+
+}
+.ready_left{
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+
+
+}
+.ready_left p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+}
+.ready_right {
+	width: 200px;
+	height: 20px;
+	float: right;
+	background-color: #00C853;
+	padding: 8px 15px 8px 15px;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 200px;
+
+
+}
+.ready_right p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+.footer {
+	width: 100%;
+}
+.footer_left{
+	width: 45%;
+	float: left;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	color: gray;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footer_right{
+	float: right;
+	width: 50%;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+}
+
+
+.footer_right ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footer_right ul li:hover {
+	color: #00C853;
+}
